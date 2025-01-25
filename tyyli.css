@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url(PoetsenOne-Regular.ttf);
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(1, 97, 1) 33.33%, white 33.33%, white 66.66%, rgb(165, 1, 1) 66.66%);
+    font-family: 'PoetsenOne', sans-serif;
+}
+
+h1 {
+    font-family: 'PoetsenOne' sans-serif;
+}
+
+h2 {
+    font-family: 'PoetsenOne' sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
