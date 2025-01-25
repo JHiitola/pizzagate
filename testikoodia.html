@@ -1,0 +1,59 @@
+<!--Punaiset yläosan nappulat :-->
+
+<style>
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+  
+    .primary-button {
+      align-self: stretch;
+      border-radius: 20px;
+      background-color: rgba(236, 34, 31, 1);
+      border: 1px solid rgba(192, 15, 12, 1);
+      padding: 23px 12px;
+      gap: 8px;
+      overflow: hidden;
+      color: #ffffff;
+      white-space: nowrap;
+      width: 186px;
+      text-decoration: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+      font: 400 32px/1 "Poetsen One", cursive;
+    }
+  
+    .primary-button:focus {
+      outline: 3px solid #4A90E2;
+      outline-offset: 2px;
+    }
+  
+    .primary-button:hover {
+      background-color: rgba(192, 15, 12, 1);
+    }
+  
+    @media (max-width: 991px) {
+      .primary-button {
+        font-size: 28px;
+        padding: 20px 10px;
+        width: 160px;
+      }
+    }
+  
+    @media (max-width: 640px) {
+      .primary-button {
+        font-size: 24px;
+        padding: 16px 8px;
+        width: 140px;
+      }
+    }
+  </style>
+  
+  <button class="primary-button" type="button" aria-label="Etusivu">Etusivu</button>

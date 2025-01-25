@@ -23,3 +23,19 @@ h2 {
     align-items: center;
     height: 100%;
 }
+
+/* Make sure the footer is at the bottom */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);  /* Optional: Set background color */
+    color: white;  /* Adjust text color */
+    padding: 20px;
+    text-align: center; /* Center the content inside the footer */
+  }
+  
+  footer img {
+    width: 200px;  /* You can adjust the size of the logo */
+    margin-right: 10px;  /* Optional: space between logo and text */
+  }
