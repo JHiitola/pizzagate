@@ -141,10 +141,9 @@ h1 {
 .toppings-list {
   list-style-type: none;
   padding: 0;
-  display: grid; /* Use grid for two columns */
-  grid-template-columns: repeat(3, 1fr); /* Create two equal columns */
-  gap: 10px; /* Space between items */
-}
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 
 .toppings-list li {
   font-size: 18px;
