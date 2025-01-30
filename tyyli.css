@@ -5,7 +5,9 @@
 
 body {
   margin: 0;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background: linear-gradient(to right, rgb(1, 97, 1) 33vw, white 33vw, white 66vw, rgb(165, 1, 1) 66vw);
   font-family: 'PoetsenOne', sans-serif;
 }
@@ -36,9 +38,9 @@ body {
 }
 
 .image-container img {
-  max-width: 250px; /* Default size */
+  max-width: 250px;
   height: auto;
-  max-width: 80%; /* Ensure responsiveness */
+  max-width: 80%;
 }
 
 h1 {
@@ -61,16 +63,7 @@ h1 {
   gap: 10px;
 }
 
-@media (max-width: 640px) {
-  .hero-content {
-      flex-direction: column;
-      align-items: center;
 
-  .primary-button {
-      width: 80%;
-      text-align: center;
-  }
-}
 
 .hero-section {
   width: 100%;
@@ -141,12 +134,31 @@ h1 {
   }
 }
 
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content inside */
+  justify-content: center; /* Centers the form */
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  width: 100%;
+  max-width: 500px; /* Prevents the form from being too wide */
+  background: rgb(153, 209, 178);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 footer {
+  margin-top: auto;
   position: relative;
-  bottom: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  color: white;
+  color: rgb(2, 0, 0);
   padding: 10px;
   text-align: center;
   font-size: 14px;
