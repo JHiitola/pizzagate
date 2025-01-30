@@ -24,6 +24,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 30px
 }
 
 .image-container {
@@ -90,14 +91,19 @@ h1 {
   background-color: rgb(194, 28, 25);
   border: 1px solid rgba(192, 15, 12, 1);
   padding: 12px 20px;
-  font-size: 22px;
+  gap: 8px;
+  overflow: hidden;
   color: #ffffff;
+  white-space: nowrap;
+  min-width: 140px;
+  height: auto;
   text-decoration: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   font: 400 26px/1 "Poetsen One", cursive;
 }
+
 
 .primary-button:focus {
   outline: 3px solid #4A90E2;
