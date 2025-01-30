@@ -24,18 +24,41 @@ h2 {
     height: 100%;
 }
 
-/* Make sure the footer is at the bottom */
+/* Varmistetaan, että footer on pohjimmaisena */
 footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);  /* Optional: Set background color */
-    color: white;  /* Adjust text color */
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
     padding: 20px;
-    text-align: center; /* Center the content inside the footer */
+    text-align: center; /* Keskitys footerin sisällä */
   }
   
   footer img {
-    width: 200px;  /* You can adjust the size of the logo */
-    margin-right: 10px;  /* Optional: space between logo and text */
+    width: 200px;  /* Logon kokosäätö */
+    margin-right: 10px;  /* Tekstin ja logon väliin jäävä tila */
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column; /* Tämä kohta laittaa containerin jutut päällekkäin, eikä vierekkäin kuten default on */
+    align-items: center; /* Keskitetään jutut, lomake on muuten kökön näköinen */
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    
+  }
+  
+
+  form {
+    background: rgb(153, 209, 178);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
