@@ -3,15 +3,15 @@
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Kirjaudu sisään</title>
+    <title>Admin sisäänkirjautuminen</title>
 </head>
 <body>
-    <h2>Kirjaudu sisään</h2>
+    <h2>Kirjautuminen sisään admin-alueelle</h2>
     <form action="checkpw.php" method="post">
         <label>Salasana:</label>
         <input type="password" name="password" required>
         <button type="submit">Kirjaudu</button>
     </form>
-    <p>(helpotuksena, oikea salasana on 'testi')</p>
+   
 </body>
 </html>

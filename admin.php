@@ -8,10 +8,15 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Ylläpito</title>
+    <title>Pizzagate ylläpito</title>
 </head>
 <body>
-    <h2>Hienoa, sisällä ollaan</h2>
+    <h2>Pizzagate-sivuston admin-alue</h2>
+    <br>
+    <a href="index.html">Linkki indexiin</a>
+    <br>
+    <a href="tietokanta">Tietokantaan tästä</a>
+    <br>
     <a href="logout.php">Kirjaudu ulos</a>
     
 </body>
