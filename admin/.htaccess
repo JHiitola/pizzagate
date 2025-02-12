@@ -1,0 +1,4 @@
+AuthName "Ylläpito"
+AuthType Basic
+AuthUserFile /home/trtkm24a_6/.htpasswd
+Require valid-user
