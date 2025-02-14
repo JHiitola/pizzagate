@@ -9,7 +9,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    // Email details
     $to = "amk1005480@student.hamk.fi";
     $subject = "Uusi palaute Pizzagate-sivustolta";
     $headers = "From: $email\r\n";
@@ -20,7 +19,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message .= "Sähköposti: $email\n";
     $message .= "Palaute:\n$palaute\n";
 
-    // Send email
     if (mail($to, $subject, $message, $headers)) {
         header("Location: kiitos.html");
         exit;

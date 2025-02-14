@@ -192,10 +192,10 @@ footer {
 }
 
 footer img {
-  width: 150px; /* Set to a fixed width to control the size */
-  height: auto; /* Keeps aspect ratio intact */
-  margin-bottom: 10px; /* Adds spacing between image and text */
-  max-width: 100%; /* Prevents overflow */
+  width: 150px; /* Koon kontrolloimiseksi kovakoodattu koko */
+  height: auto; /* Pitää "kuvasuhteen" kasassa */
+  margin-bottom: 10px; /* Lisää välyksiä tekstin ja kuvan välille */
+  max-width: 100%; /* Estää vuodon ruudun ulkopuolelle */
 }
 
 @media (max-width: 640px) {
@@ -204,14 +204,14 @@ footer img {
   }
 
   footer img {
-    width: 80px; /* Resize image further on small screens */
+    width: 80px; /* Pienempien ruutujen uudelleenmäärittely */
   }
 }
 
 .center-content {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 50vh; /* Optional: Adjust height as needed */
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
 }
 
