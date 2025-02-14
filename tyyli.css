@@ -53,6 +53,7 @@ h1 {
   text-align: center;
 }
 
+
 @media (max-width: 640px) {
   h1 {
     font-size: 2rem;
@@ -206,3 +207,11 @@ footer img {
     width: 80px; /* Resize image further on small screens */
   }
 }
+
+.center-content {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 50vh; /* Optional: Adjust height as needed */
+}
+
