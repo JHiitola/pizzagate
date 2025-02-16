@@ -74,7 +74,7 @@
 
         <div class="admin-links">
             <a href="../index.html">🏠 Paluu etusivulle</a>
-            <a href="../tietokanta/manage_toppings.php">🍕 Hallinnoi täytteitä</a>
+            <a href="../admin/tietokanta/manage_toppings.php">🍕 Hallinnoi täytteitä</a>
             <a href="randomizer.php">🎲 Satunnaisnappulan asetukset</a>
             <a href="tilastot.php">📊 Täytetilastot</a>
         </div>
