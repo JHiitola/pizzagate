@@ -10,6 +10,9 @@ body {
   min-height: 100vh;
   font-family: 'PoetsenOne', sans-serif;
   margin: 0;
+  color: #f8f8f8;
+  text-align: center;
+  padding: 0;
 }
 
 html, body {
@@ -23,6 +26,7 @@ html, body {
   justify-content: center;
   min-height: 50vh;
   text-align: center;
+  height: 80vh;
 }
 
 .content-wrapper {
@@ -30,7 +34,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 30px
+  margin-top: 30px;
 }
 
 .image-container {
@@ -51,8 +55,9 @@ h1 {
   font-family: 'PoetsenOne', sans-serif;
   font-size: 3rem;
   text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
 }
-
 
 @media (max-width: 640px) {
   h1 {
@@ -65,7 +70,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  z-index:10;
+  z-index: 10;
 }
 
 .hero-section {
@@ -175,123 +180,6 @@ form {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-  margin-top: auto;
-  position: relative;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: rgb(2, 0, 0);
-  padding: 10px;
-  text-align: center;
-  font-size: 14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-footer img {
-  width: 150px; /* Koon kontrolloimiseksi kovakoodattu koko */
-  height: auto; /* Pitää "kuvasuhteen" kasassa */
-  margin-bottom: 10px; /* Lisää välyksiä tekstin ja kuvan välille */
-  max-width: 100%; /* Estää vuodon ruudun ulkopuolelle */
-}
-
-@media (max-width: 640px) {
-  footer {
-    font-size: 12px;
-  }
-
-  footer img {
-    width: 80px; /* Pienempien ruutujen uudelleenmäärittely */
-  }
-}
-
-.center-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-}
-
-body {
-  font-family: 'Poetsen One', sans-serif;
-  background-color: rgb(30, 46, 31);
-  color: #f8f8f8;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  margin-top: 20px;
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
-}
-
-table {
-  border-collapse: collapse;
-  width: 80%;
-  margin: 20px 0;
-}
-
-table, th, td {
-  border: 1px solid #ddd;
-}
-
-th, td {
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  background-color: rgb(194, 28, 25);
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-footer {
-  margin-top: 40px;
-  font-size: 0.9rem;
-  opacity: 0.7;
-}
-
-body {
-  font-family: 'Poetsen One', sans-serif;
-  background-color: rgb(30, 46, 31);
-  color: #f8f8f8;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  margin-top: 20px;
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
-}
-
-form {
   margin-bottom: 20px;
 }
 
@@ -341,7 +229,40 @@ td {
 }
 
 footer {
-  margin-top: 40px;
-  font-size: 0.9rem;
+  margin-top: auto;
+  position: relative;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(2, 0, 0);
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   opacity: 0.7;
+}
+
+footer img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  footer {
+    font-size: 12px;
+  }
+
+  footer img {
+    width: 80px;
+  }
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
 }
