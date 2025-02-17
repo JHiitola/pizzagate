@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-$sql = "SELECT * FROM toppings ORDER BY id ASC";
+$sql = "SELECT * FROM toppings ORDER BY name ASC, id ASC";
 $result = $conn->query($sql);
 ?>
 
@@ -62,7 +62,7 @@ $result = $conn->query($sql);
         button {
             padding: 8px 12px;
             font-size: 0.9rem;
-            background-color: rgb(219, 2, 2);
+            background-color: rgb(187, 5, 5);
             color: white;
             border: none;
             border-radius: 5px;

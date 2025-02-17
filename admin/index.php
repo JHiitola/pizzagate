@@ -73,12 +73,9 @@
         <h1>Pizzagate Ylläpito</h1>
 
         <div class="admin-links">
-            <a href="../index.html">🏠 Paluu etusivulle</a>
+            <a href="../index.php">🏠 Paluu etusivulle</a>
             <a href="../admin/tietokanta/manage_toppings.php">🍕 Hallinnoi täytteitä</a>
-            <a href="randomizer.php">🎲 Satunnaisnappulan asetukset</a>
-            <a href="tilastot.php">📊 Täytetilastot</a>
-        </div>
-    </div>
+     </div>
 
     <footer>
         <p>© 2025 Pizzagate | Ylläpito</p>
